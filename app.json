@@ -1,0 +1,36 @@
+{
+  "target": "Cloud",
+  "id": "d7d2472e-297b-4384-9f35-ed23e7faffec",
+  "name": "ADB Start",
+  "publisher": "Wanamics",
+  "version": "18.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "Wanamics90x90.png",
+  "dependencies": 
+  [
+    {                                                                                                                                                                                                                                                                                                               
+      "id": "d9f7fcec-756f-413f-9039-1325acf04739",
+      "name": "ADB",
+      "publisher": "Wanamics",
+      "version": "18.0.0.0"
+    }
+
+  ],
+  "screenshots": [],
+  "platform": "18.0.0.0",
+  "application": "18.0.0.0",                                                                     
+  "idRanges": [
+    {
+      "from": 59900,
+      "to": 59999
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://www.wanamics.fr/support/",
+  "showMyCode": true,
+  "runtime": "7.0"
+}

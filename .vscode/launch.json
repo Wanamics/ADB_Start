@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "AdB Development",
+            "request": "launch",
+            "type": "al",
+            "server": "https://businesscentral.dynamics.com/",
+            "tenant": "e72de8e0-5832-4947-96d8-0ffa425380ff",
+            "environmentType": "Sandbox",
+            "environmentName": "Development",
+            "port": 7049,
+            "authentication": "AAD",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            /*
+            "startupObjectType": "Report",
+            "startupObjectId": 59900
+            */
+        }
+    ]
+}
