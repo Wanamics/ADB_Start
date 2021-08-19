@@ -3,7 +3,7 @@
   "id": "d7d2472e-297b-4384-9f35-ed23e7faffec",
   "name": "ADB Start",
   "publisher": "Wanamics",
-  "version": "18.0.0.5",
+  "version": "18.0.0.8",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -17,7 +17,7 @@
       "id": "d9f7fcec-756f-413f-9039-1325acf04739",
       "name": "ADB",
       "publisher": "Wanamics",
-      "version": "18.0.0.0"
+      "version": "18.0.0.57"
     }
 
   ],
