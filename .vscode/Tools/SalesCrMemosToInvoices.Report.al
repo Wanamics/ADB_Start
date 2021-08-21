@@ -1,4 +1,5 @@
 //#Statistiques
+/* DISABLE
 report 59910 "Sales Cr.Memos to Inv. Union"
 {
     ApplicationArea = All;
@@ -41,3 +42,4 @@ report 59910 "Sales Cr.Memos to Inv. Union"
         ProgressDialog: Dialog;
         Inserted: Integer;
 }
+*/
