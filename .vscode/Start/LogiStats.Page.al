@@ -42,10 +42,10 @@ page 59903 "wan LogiStats"
         area(Processing)
         {
 
-            action(Import)
+            action(Split)
             {
                 ApplicationArea = All;
-                Caption = 'Process';
+                Caption = 'Split Excel to Excel';
                 Promoted = true;
                 PromotedCategory = Process;
                 PromotedIsBig = true;
@@ -54,6 +54,22 @@ page 59903 "wan LogiStats"
                 trigger OnAction()
                 begin
                     codeunit.run(Codeunit::"wan LogiStats Excel", Rec);
+                end;
+            }
+            action(Import)
+            {
+                ApplicationArea = All;
+                Caption = 'Import to Posted Invoices';
+                Promoted = true;
+                PromotedCategory = Process;
+                PromotedIsBig = true;
+                PromotedOnly = true;
+
+                trigger OnAction()
+                var
+                    LogistatsImport: Codeunit "wan LogiStats Import";
+                begin
+                    LogistatsImport.Import();
                 end;
             }
         }

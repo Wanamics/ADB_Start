@@ -1,7 +1,7 @@
-report 59907 "Update CustLedgerEntry"
+report 59907 "Update CustLedgerEntry@"
 {
     ApplicationArea = All;
-    Caption = 'Update CustLedgerEntry Message';
+    Caption = 'Update CustLedgerEntry @ Message';
     UsageCategory = Administration;
     ProcessingOnly = true;
     Permissions = tabledata 21 = m;

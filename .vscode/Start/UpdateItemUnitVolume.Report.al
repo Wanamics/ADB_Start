@@ -21,11 +21,9 @@ report 59908 "wan Update Item Unit Volume"
                 ProgressDialog.UpdateCopyCount();
                 Validate("Replenishment System");
                 Modify();
-                /*
                 UpdateSalesLines(Item);
                 UpdateSalesInvoiceLines(Item);
                 UpdateSalesCrMemoLines(Item);
-                */
             end;
 
             trigger OnPreDataItem()

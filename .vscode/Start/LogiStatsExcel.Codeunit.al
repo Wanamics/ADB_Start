@@ -37,7 +37,6 @@ Codeunit 59900 "wan LogiStats Excel"
     var
         lRowNo: Integer;
         lNext: Integer;
-        lExists: Boolean;
         lCount: Integer;
         lProgress: Integer;
         lDialog: Dialog;
