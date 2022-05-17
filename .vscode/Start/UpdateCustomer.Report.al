@@ -21,13 +21,13 @@ report 59901 "wan Update Customer"
                     "VAT Bus. Posting Group" := 'FR_DEB';
                 validate("Prices Including VAT", true);
                 UpdateItems(Customer);
-                */
                 validate("Combine Shipments", not "Print Statements"); // "Print Statement" = Client web
                 if "Print Statements" then
                     validate("Application Method", "Application Method"::"Apply to Oldest");
-                /*
                 Validate("Shipping Advice", Customer."Shipping Advice"::Complete);
+                validate("Responsibility Center", 'ADB');
                 */
+                ValidateSalespersonCode();
                 Modify;
             end;
 
@@ -60,6 +60,7 @@ report 59901 "wan Update Customer"
     var
         ProgressDialog: Codeunit "Progress Dialog";
 
+    /*
     local procedure UpdateItems(pCustomer: Record Customer)
     var
         Item: Record Item;
@@ -81,6 +82,36 @@ report 59901 "wan Update Customer"
                 Item.Validate("Item Disc. Group", '1');
                 Item.Modify();
             until Item.Next() = 0;
+    end;
+    */
+    local procedure ValidateSalespersonCode()
+    var
+        User: Record User;
+        UsetSetup: Record "User Setup";
+        SalesHeader: Record "Sales Header";
+    begin
+        if Customer."Salesperson Code" = '' then begin
+            User.Get(Customer.SystemCreatedBy);
+            UsetSetup.Get(User."User Name");
+            UsetSetup.TestField("Salespers./Purch. Code");
+            Customer."Salesperson Code" := UsetSetup."Salespers./Purch. Code";
+        end;
+        Customer.Validate("Salesperson Code"); // Inherit Global Dimensions
+        Customer.Modify(false);
+
+        SalesHeader.SuspendStatusCheck(true);
+        SalesHeader.SetHideValidationDialog(true);
+        SalesHeader.SetCurrentKey("Sell-to Customer No.");
+        SalesHeader.SetRange("Sell-to Customer No.", Customer."No.");
+        SalesHeader.SetFilter("Shortcut Dimension 1 Code", '');
+        if SalesHeader.FindSet() then
+            repeat
+                if SalesHeader."Salesperson Code" = '' then
+                    SalesHeader.Validate("Salesperson Code", Customer."Salesperson Code")
+                else
+                    SalesHeader.Validate("Shortcut Dimension 1 Code", Customer."Global Dimension 1 Code");
+                SalesHeader.Modify(false);
+            until SalesHeader.Next() = 0;
     end;
 }
 

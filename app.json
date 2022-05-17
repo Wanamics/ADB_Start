@@ -3,7 +3,7 @@
   "id": "d7d2472e-297b-4384-9f35-ed23e7faffec",
   "name": "ADB Start",
   "publisher": "Wanamics",
-  "version": "18.0.0.13",
+  "version": "20.0.0.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -17,13 +17,13 @@
       "id": "d9f7fcec-756f-413f-9039-1325acf04739",
       "name": "ADB",
       "publisher": "Wanamics",
-      "version": "18.0.0.57"
+      "version": "20.0.0.0"
     }
 
   ],
   "screenshots": [],
-  "platform": "18.0.0.0",
-  "application": "18.0.0.0",                                                                     
+  "platform": "19.0.0.0",
+  "application": "19.0.0.0",                                                                     
   "idRanges": [
     {
       "from": 59900,
@@ -31,6 +31,9 @@
     }
   ],
   "contextSensitiveHelpUrl": "https://www.wanamics.fr/support/",
-  "showMyCode": true,
-  "runtime": "7.0"
+  "resourceExposurePolicy": {
+    "allowDebugging": true, 
+    "allowDownloadingSource": true, 
+    "includeSourceInSymbolFile": true},
+  "runtime": "8.0"
 }

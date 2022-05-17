@@ -11,7 +11,7 @@ report 59900 "wan Update Item"
     {
         dataitem(Item; Item)
         {
-            RequestFilterFields = "No.";
+            RequestFilterFields = "No.", Type, "Replenishment System";
 
             trigger OnAfterGetRecord()
             var
@@ -60,14 +60,13 @@ report 59900 "wan Update Item"
                     Item.Validate("Price/Profit Calculation", Item."Price/Profit Calculation"::"Price=Cost+Profit");
                     //??Modify; // Before "Prices Includes VAT"
                     Item."No. Series" := 'ITEM_ASS';
-                    Item.Modify;
-                    */
                     if Item."No."[1] = 'L' then
                         Item."Blocked" := false; // suite pb copie coommandes-cadres
                     Item."Shelf No." := '';
                     Item."Reorder Point" := 0;
                     Item."Maximum Inventory" := 0;
                     Item.Modify(true);
+                    */
                 end else begin
                     /*
                     if "Vendor Item No." <> '' then
@@ -89,13 +88,15 @@ report 59900 "wan Update Item"
                     end else
                         Item."Net Weight" *= 1000;
                     ChangeSKULocation(Item, '01', '99');
-                    */
                     "Statistics Group" := 0; // something is modified
                     Item."Shelf No." := '';
                     Item."Reorder Point" := 0;
                     Item."Maximum Inventory" := 0;
-                    if "Unit Price" <> 0 then
+                    */
+                    if "Unit Price" <> 0 then // Trigger webhook to update Weight
                         Item.Modify(true);
+                    SetStockKeepingUnit(Item, '01');
+                    SetDefaultDimension(Item, 'SITE', 'ZZZ')
                 end;
                 /*
                 Validate("Purch. Unit of Measure", "Base Unit of Measure");
@@ -253,16 +254,18 @@ report 59900 "wan Update Item"
     local procedure SetStockKeepingUnit(var pItem: Record Item; pLocationCode: Code[10])
     var
         StockkeepingUnit: Record "Stockkeeping Unit";
-        Exists: Boolean;
     begin
-        Exists := StockkeepingUnit.Get(pLocationCode, pItem."No.", '');
+        if StockkeepingUnit.Get(pLocationCode, pItem."No.", '') then
+            exit;
+
         StockkeepingUnit.Validate("Item No.", pItem."No.");
         StockkeepingUnit."Location Code" := pLocationCode;
-        StockkeepingUnit."Reordering Policy" := StockkeepingUnit."Reordering Policy"::"Maximum Qty.";
-        if Exists then
-            StockkeepingUnit.Modify(true)
-        else
-            StockkeepingUnit.Insert(true);
+        StockkeepingUnit.validate("Reordering Policy", StockkeepingUnit."Reordering Policy"::"Lot-for-Lot");
+        evaluate(StockkeepingUnit."Lot Accumulation Period", '<1W>');
+        StockkeepingUnit.Validate("Lot Accumulation Period");
+        StockkeepingUnit."Vendor No." := Item."Vendor No.";
+        StockkeepingUnit."Vendor Item No." := Item."Vendor Item No.";
+        StockkeepingUnit.Insert(true);
     end;
 
     local procedure NonStockItemExists(pItem: Record Item): Boolean;
@@ -287,6 +290,19 @@ report 59900 "wan Update Item"
         SKU.Delete(true);
         SKU."Location Code" := pTo;
         SKU.Insert();
+    end;
+
+    local procedure SetDefaultDimension(var pItem: Record Item; pDimensionCode: Code[20]; pDimensionValueCode: Code[20])
+    var
+        DefaultDimension: Record "Default Dimension";
+    begin
+        if DefaultDimension.Get(Database::Item, pItem."No.", pDimensionCode) then
+            exit;
+        DefaultDimension."Table ID" := Database::Item;
+        DefaultDimension."No." := pItem."No.";
+        DefaultDimension."Dimension Code" := pDimensionCode;
+        DefaultDimension."Dimension Value Code" := pDimensionValueCode;
+        DefaultDimension.Insert(true);
     end;
 }
 

@@ -9,7 +9,7 @@ report 59904 "wan Update Blanket Sales order"
     {
         dataitem(SalesHeader; "Sales Header")
         {
-            DataItemTableView = Where("Document Type" = Const("Blanket Order"), "Prices Including VAT" = const(false));
+            DataItemTableView = Where("Document Type" = Const("Blanket Order"));
             RequestFilterFields = "No.";
 
             trigger OnAfterGetRecord()
@@ -17,8 +17,12 @@ report 59904 "wan Update Blanket Sales order"
                 ProgressDialog.UpdateCopyCount();
                 SuspendStatusCheck(true);
                 SetHideValidationDialog(true);
+                /*
                 validate("Prices Including VAT", true);
                 modify(true);
+                */
+                "Responsibility Center" := 'ADB';
+                Modify(false);
             end;
 
             trigger OnPreDataItem()
