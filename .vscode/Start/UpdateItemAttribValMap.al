@@ -1,3 +1,4 @@
+/*
 report 59910 "wan Update Item AVM"
 {
     ApplicationArea = All;
@@ -30,3 +31,4 @@ report 59910 "wan Update Item AVM"
     var
         CatalogItemToItem: Codeunit "wan Catalog Item to Item";
 }
+*/

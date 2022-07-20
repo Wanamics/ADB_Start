@@ -140,7 +140,7 @@ report 59900 "wan Update Item"
         ItemJournalLine: Record "Item Journal Line";
         ProductionForecastEntry: Record "Production Forecast Entry";
         ProgressDialog: Codeunit "Progress Dialog";
-        wanCatalogItemToItem: Codeunit "wan Catalog Item to Item";
+    //wanCatalogItemToItem: Codeunit "wan Catalog Item to Item";
 
     local procedure InsertItemUnitOfMeasure(pItem: Record Item)
     var
@@ -305,4 +305,3 @@ report 59900 "wan Update Item"
         DefaultDimension.Insert(true);
     end;
 }
-

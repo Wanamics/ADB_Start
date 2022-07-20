@@ -88,7 +88,6 @@ report 59901 "wan Update Customer"
     var
         User: Record User;
         UsetSetup: Record "User Setup";
-        SalesHeader: Record "Sales Header";
     begin
         if Customer."Salesperson Code" = '' then begin
             User.Get(Customer.SystemCreatedBy);
@@ -98,7 +97,13 @@ report 59901 "wan Update Customer"
         end;
         Customer.Validate("Salesperson Code"); // Inherit Global Dimensions
         Customer.Modify(false);
+        UpdateSalesHeader();
+    end;
 
+    local procedure UpdateSalesHeader()
+    var
+        SalesHeader: Record "Sales Header";
+    begin
         SalesHeader.SuspendStatusCheck(true);
         SalesHeader.SetHideValidationDialog(true);
         SalesHeader.SetCurrentKey("Sell-to Customer No.");
@@ -113,5 +118,20 @@ report 59901 "wan Update Customer"
                 SalesHeader.Modify(false);
             until SalesHeader.Next() = 0;
     end;
+    /*
+    local procedure UpdateSalesLine(var pSalesHeader : Record "Sales Header")
+    var
+        SalesLine : Record "Sales Line";
+    begin
+        SalesLine.SetRange("Document Type", pSalesHeader."Document Type");
+        SalesLine.SetRange("Document No.",pSalesHeader."No.");
+        SalesLine.SetFilter("Shortcut Dimension 1 Code", '<>%1', pSalesHeader."Shortcut Dimension 1 Code");
+        SalesLine.SetFilter("No.", '<>%1', '');
+        if SalesLine.FindSet() then
+            repeat
+                SalesLine.Validate("Shortcut Dimension 1 Code", pSalesHeader."Shortcut Dimension 1 Code");
+                SalesLine.Modify(false);
+            until SalesLine.Next() = 0;
+    end;
+    */
 }
-
