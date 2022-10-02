@@ -1,0 +1,16 @@
+{
+    "search.exclude": {
+        "**/.alcache": true,
+        "**/rad.json": true,
+        "**/*.xml": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.snapshots": true,
+        "**/.alcache": true
+    },
+    "editor.formatOnSave": true,
+    "[al]": {
+        "editor.semanticHighlighting.enabled": true
+    }
+}

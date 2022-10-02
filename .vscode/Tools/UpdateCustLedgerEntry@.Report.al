@@ -26,8 +26,10 @@ report 59907 "Update CustLedgerEntry@"
                     Last += 1;
                 if Description[Last] = ' ' then
                     Last -= 1;
-                CustLedgerEntry."Message to Recipient" := copystr(Description, First, Last);
-                CustLedgerEntry.Modify();
+                "Message to Recipient" := copystr(Description, First, Last);
+                if ("Document Type" in ["Document Type"::Payment, "Document Type"::Refund]) and ("Applies-to ID" = '') and ("External Document No." <> '') then
+                    "Applies-to ID" := "External Document No.";
+                Modify();
             end;
         }
     }

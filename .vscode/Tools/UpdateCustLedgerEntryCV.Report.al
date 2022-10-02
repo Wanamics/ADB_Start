@@ -42,21 +42,6 @@ report 59909 "Update CustLedgerEntryCV"
     requestpage
     {
         SaveValues = true;
-        layout
-        {
-            area(content)
-            {
-                group(GroupName)
-                {
-                }
-            }
-        }
-        actions
-        {
-            area(processing)
-            {
-            }
-        }
     }
 
 }
