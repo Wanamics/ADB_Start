@@ -1,0 +1,2190 @@
+[
+    {
+        "Id": "1005",
+        "Name": "Famille"
+    },
+    {
+        "Id": "1006",
+        "Name": "Sous Famille"
+    },
+    {
+        "Id": "1007",
+        "Name": "Nomenclature 7ch"
+    },
+    {
+        "Id": "1011",
+        "Name": "Code Regroupement Marketing"
+    },
+    {
+        "Id": "1017",
+        "Name": "Désignation abrégée"
+    },
+    {
+        "Id": "1019",
+        "Name": "Non commandable"
+    },
+    {
+        "Id": "1028",
+        "Name": "Codes catalogue"
+    },
+    {
+        "Id": "1057",
+        "Name": "Nom Fournisseur"
+    },
+    {
+        "Id": "1058",
+        "Name": "Ref Fournisseur"
+    },
+    {
+        "Id": "1059",
+        "Name": "Marque produit"
+    },
+    {
+        "Id": "1064",
+        "Name": "Traitement de surface"
+    },
+    {
+        "Id": "1065",
+        "Name": "Finition"
+    },
+    {
+        "Id": "1066",
+        "Name": "Opacité"
+    },
+    {
+        "Id": "1068",
+        "Name": "Durabilité"
+    },
+    {
+        "Id": "1069",
+        "Name": "Rugosité  ml/min"
+    },
+    {
+        "Id": "1070",
+        "Name": "Humidité"
+    },
+    {
+        "Id": "1071",
+        "Name": "Densité produit"
+    },
+    {
+        "Id": "1072",
+        "Name": "Blancheur Iso"
+    },
+    {
+        "Id": "1077",
+        "Name": "Main en cm3/g"
+    },
+    {
+        "Id": "1086",
+        "Name": "Type de papier (bobinettes)"
+    },
+    {
+        "Id": "1118",
+        "Name": "Dureté"
+    },
+    {
+        "Id": "1121",
+        "Name": "Embout"
+    },
+    {
+        "Id": "1122",
+        "Name": "Teinte couleur"
+    },
+    {
+        "Id": "1123",
+        "Name": "Mine (mm)"
+    },
+    {
+        "Id": "1124",
+        "Name": "Rechargeable "
+    },
+    {
+        "Id": "1125",
+        "Name": "Couleur de l''encre"
+    },
+    {
+        "Id": "1126",
+        "Name": "Fermeture"
+    },
+    {
+        "Id": "1127",
+        "Name": "Aspect"
+    },
+    {
+        "Id": "1128",
+        "Name": "Corps"
+    },
+    {
+        "Id": "1129",
+        "Name": "Application"
+    },
+    {
+        "Id": "1130",
+        "Name": "Format corps"
+    },
+    {
+        "Id": "1131",
+        "Name": "Forme"
+    },
+    {
+        "Id": "1132",
+        "Name": "Fentes"
+    },
+    {
+        "Id": "1133",
+        "Name": "Indice"
+    },
+    {
+        "Id": "1134",
+        "Name": "Nbre de planches"
+    },
+    {
+        "Id": "1135",
+        "Name": "Nbre etiq par feuille"
+    },
+    {
+        "Id": "1136",
+        "Name": "Imprime recommande   "
+    },
+    {
+        "Id": "1137",
+        "Name": "Format de coupe"
+    },
+    {
+        "Id": "1138",
+        "Name": "Type de coupe"
+    },
+    {
+        "Id": "1139",
+        "Name": "Enlevable "
+    },
+    {
+        "Id": "1140",
+        "Name": "Surface"
+    },
+    {
+        "Id": "1141",
+        "Name": "Pivotant "
+    },
+    {
+        "Id": "1142",
+        "Name": "Potence laterale "
+    },
+    {
+        "Id": "1143",
+        "Name": "Magnetique "
+    },
+    {
+        "Id": "1144",
+        "Name": "Gros module "
+    },
+    {
+        "Id": "1145",
+        "Name": "Diamètre mine"
+    },
+    {
+        "Id": "1146",
+        "Name": "Aquarellable "
+    },
+    {
+        "Id": "1147",
+        "Name": "Scanner Recto Verso   "
+    },
+    {
+        "Id": "1148",
+        "Name": "Culots"
+    },
+    {
+        "Id": "1149",
+        "Name": "Technologie"
+    },
+    {
+        "Id": "1150",
+        "Name": "Puissance"
+    },
+    {
+        "Id": "1151",
+        "Name": "Affichage"
+    },
+    {
+        "Id": "1152",
+        "Name": "Radio pilotee "
+    },
+    {
+        "Id": "1153",
+        "Name": "Nbre de patères"
+    },
+    {
+        "Id": "1154",
+        "Name": "Porte parapluie "
+    },
+    {
+        "Id": "1155",
+        "Name": "Variateur "
+    },
+    {
+        "Id": "1156",
+        "Name": "Luminosité (lumens)"
+    },
+    {
+        "Id": "1157",
+        "Name": "Capacité (nbre de feuilles)"
+    },
+    {
+        "Id": "1158",
+        "Name": "Type d''agrafes"
+    },
+    {
+        "Id": "1159",
+        "Name": "Type d''agrafes spécifique"
+    },
+    {
+        "Id": "1160",
+        "Name": "Format fiches"
+    },
+    {
+        "Id": "1161",
+        "Name": "Type d''usage"
+    },
+    {
+        "Id": "1162",
+        "Name": "Type d''impression"
+    },
+    {
+        "Id": "1163",
+        "Name": "Volume de pages mensuel recommandé"
+    },
+    {
+        "Id": "1164",
+        "Name": "Vitesse de transmission kbps"
+    },
+    {
+        "Id": "1165",
+        "Name": "Chargeur de documents  "
+    },
+    {
+        "Id": "1166",
+        "Name": "Chargeur automatique (en nbre de feuilles)"
+    },
+    {
+        "Id": "1167",
+        "Name": "Capacité bac d''alimentation papier (en nbre de feuilles)"
+    },
+    {
+        "Id": "1168",
+        "Name": "Capacité bac de réception (en nbre de feuilles)"
+    },
+    {
+        "Id": "1169",
+        "Name": "Téléphone"
+    },
+    {
+        "Id": "1171",
+        "Name": "Durée d''enregistrement"
+    },
+    {
+        "Id": "1172",
+        "Name": "Mémoire émission / réception (nbre de pages)"
+    },
+    {
+        "Id": "1173",
+        "Name": "Numéros abrégés"
+    },
+    {
+        "Id": "1174",
+        "Name": "Fonction photocopie "
+    },
+    {
+        "Id": "1175",
+        "Name": "Vitesse de copie (cpm)"
+    },
+    {
+        "Id": "1176",
+        "Name": "Langages d''impression"
+    },
+    {
+        "Id": "1177",
+        "Name": "Vitesse d''impression std. couleur"
+    },
+    {
+        "Id": "1178",
+        "Name": "Vitesse d''impression std. monochrome"
+    },
+    {
+        "Id": "1179",
+        "Name": "Mobile "
+    },
+    {
+        "Id": "1180",
+        "Name": "Format d''impression"
+    },
+    {
+        "Id": "1181",
+        "Name": "Langage d''impression (émulation)"
+    },
+    {
+        "Id": "1182",
+        "Name": "Mémoire interne (en Mo/Go)"
+    },
+    {
+        "Id": "1183",
+        "Name": "Impression sur CD   DVD "
+    },
+    {
+        "Id": "1184",
+        "Name": "Lecteur de carte s  memoire s  "
+    },
+    {
+        "Id": "1185",
+        "Name": "Lecteur USB "
+    },
+    {
+        "Id": "1186",
+        "Name": "Port USB "
+    },
+    {
+        "Id": "1187",
+        "Name": "Reseau ethernet  RJ 45  "
+    },
+    {
+        "Id": "1188",
+        "Name": "WI FI"
+    },
+    {
+        "Id": "1189",
+        "Name": "WIFI direct "
+    },
+    {
+        "Id": "1190",
+        "Name": "PictBridge "
+    },
+    {
+        "Id": "1191",
+        "Name": "Bluetooth "
+    },
+    {
+        "Id": "1192",
+        "Name": "NFC "
+    },
+    {
+        "Id": "1193",
+        "Name": "Fonction Cloud"
+    },
+    {
+        "Id": "1194",
+        "Name": "Ecran de contrôle (diagonale en cm)"
+    },
+    {
+        "Id": "1195",
+        "Name": "Nbre de fonctions"
+    },
+    {
+        "Id": "1196",
+        "Name": "Résolution optique du scanner (en dpi)"
+    },
+    {
+        "Id": "1197",
+        "Name": "Capacite au format A3 "
+    },
+    {
+        "Id": "1198",
+        "Name": "Chargeur de documents"
+    },
+    {
+        "Id": "1199",
+        "Name": "Exterieur "
+    },
+    {
+        "Id": "1200",
+        "Name": "Capacité pour les vitrines (nbre feuilles A4)"
+    },
+    {
+        "Id": "1201",
+        "Name": "Fond"
+    },
+    {
+        "Id": "1202",
+        "Name": "Souplesse"
+    },
+    {
+        "Id": "1203",
+        "Name": "Nbre de tiroirs"
+    },
+    {
+        "Id": "1204",
+        "Name": "Nbre de portes"
+    },
+    {
+        "Id": "1205",
+        "Name": "Gabarit"
+    },
+    {
+        "Id": "1206",
+        "Name": "Appui tete "
+    },
+    {
+        "Id": "1207",
+        "Name": "Temps d''usage"
+    },
+    {
+        "Id": "1208",
+        "Name": "Mécanisme"
+    },
+    {
+        "Id": "1209",
+        "Name": "Haut dossier "
+    },
+    {
+        "Id": "1210",
+        "Name": "Découpe"
+    },
+    {
+        "Id": "1211",
+        "Name": "Nbre de chiffres"
+    },
+    {
+        "Id": "1212",
+        "Name": "Alimentation solaire"
+    },
+    {
+        "Id": "1213",
+        "Name": "Alimentation secteur"
+    },
+    {
+        "Id": "1214",
+        "Name": "Double affichage"
+    },
+    {
+        "Id": "1215",
+        "Name": "Fonction achat / vente / marge  (cost / sell / margin)"
+    },
+    {
+        "Id": "1216",
+        "Name": "Fonction scientifique "
+    },
+    {
+        "Id": "1217",
+        "Name": "Convertisseur euro"
+    },
+    {
+        "Id": "1218",
+        "Name": "Touche tax + / tax -"
+    },
+    {
+        "Id": "1219",
+        "Name": "Touche %"
+    },
+    {
+        "Id": "1220",
+        "Name": "Touches mémoires"
+    },
+    {
+        "Id": "1221",
+        "Name": "Touche racine carrée"
+    },
+    {
+        "Id": "1222",
+        "Name": "Touche separateur de milliers "
+    },
+    {
+        "Id": "1223",
+        "Name": "Inversion de signe  +/-"
+    },
+    {
+        "Id": "1224",
+        "Name": "Protection"
+    },
+    {
+        "Id": "1225",
+        "Name": "Fonction cost sell margin  (achat/vente/marge)"
+    },
+    {
+        "Id": "1226",
+        "Name": "Touche de vérification et de correction des opérations"
+    },
+    {
+        "Id": "1227",
+        "Name": "Ecran inclinable"
+    },
+    {
+        "Id": "1228",
+        "Name": "Touche de conversion monétaire"
+    },
+    {
+        "Id": "1229",
+        "Name": "Touche marge commerciale (MU)"
+    },
+    {
+        "Id": "1230",
+        "Name": "Touche GT "
+    },
+    {
+        "Id": "1231",
+        "Name": "Touche 00 "
+    },
+    {
+        "Id": "1232",
+        "Name": "Touche 000 "
+    },
+    {
+        "Id": "1233",
+        "Name": "Ponctuation "
+    },
+    {
+        "Id": "1234",
+        "Name": "Compteur de ligne a l  ecran "
+    },
+    {
+        "Id": "1235",
+        "Name": "Touche effacement dernier caractere "
+    },
+    {
+        "Id": "1236",
+        "Name": "Catégorie calculatrice bureau imprimante"
+    },
+    {
+        "Id": "1237",
+        "Name": "Ecran LCD "
+    },
+    {
+        "Id": "1238",
+        "Name": "Ecran digitron "
+    },
+    {
+        "Id": "1239",
+        "Name": "Affichage backlight "
+    },
+    {
+        "Id": "1240",
+        "Name": "2 taux de TVA "
+    },
+    {
+        "Id": "1241",
+        "Name": "Calcul de temps "
+    },
+    {
+        "Id": "1242",
+        "Name": "Arrondi 5 4 "
+    },
+    {
+        "Id": "1243",
+        "Name": "Touche delta %"
+    },
+    {
+        "Id": "1244",
+        "Name": "Correction du dernier chiffre (-->)"
+    },
+    {
+        "Id": "1245",
+        "Name": "Compteur de poste (ic)"
+    },
+    {
+        "Id": "1246",
+        "Name": "Fonction retour et correction"
+    },
+    {
+        "Id": "1247",
+        "Name": "Date/heure/alarme"
+    },
+    {
+        "Id": "1248",
+        "Name": "Nbre de couleur d''impression"
+    },
+    {
+        "Id": "1249",
+        "Name": "Vitesse impression (ligne/seconde)"
+    },
+    {
+        "Id": "1250",
+        "Name": "Rouleau de papier"
+    },
+    {
+        "Id": "1251",
+        "Name": "Consommable impression"
+    },
+    {
+        "Id": "1252",
+        "Name": "Ecologie"
+    },
+    {
+        "Id": "1253",
+        "Name": "Fenetre "
+    },
+    {
+        "Id": "1254",
+        "Name": "Format fenêtre (mm)"
+    },
+    {
+        "Id": "1255",
+        "Name": "Qualité"
+    },
+    {
+        "Id": "1256",
+        "Name": "Format soufflet"
+    },
+    {
+        "Id": "1257",
+        "Name": "Taille soufflet"
+    },
+    {
+        "Id": "1258",
+        "Name": "Armee "
+    },
+    {
+        "Id": "1259",
+        "Name": "Effet"
+    },
+    {
+        "Id": "1260",
+        "Name": "Contenant"
+    },
+    {
+        "Id": "1261",
+        "Name": "Contenance"
+    },
+    {
+        "Id": "1262",
+        "Name": "Unité contenance"
+    },
+    {
+        "Id": "1263",
+        "Name": "Angle"
+    },
+    {
+        "Id": "1264",
+        "Name": "Gradue "
+    },
+    {
+        "Id": "1265",
+        "Name": "Graduation"
+    },
+    {
+        "Id": "1266",
+        "Name": "Echelle de graduation"
+    },
+    {
+        "Id": "1267",
+        "Name": "Numero"
+    },
+    {
+        "Id": "1269",
+        "Name": "Capacité de perforation"
+    },
+    {
+        "Id": "1270",
+        "Name": "Capacité de reliure"
+    },
+    {
+        "Id": "1271",
+        "Name": "Epaisseur par face"
+    },
+    {
+        "Id": "1272",
+        "Name": "Temps de prechauffage"
+    },
+    {
+        "Id": "1273",
+        "Name": "Vitesse de plastification"
+    },
+    {
+        "Id": "1274",
+        "Name": "Format du document à plastifier"
+    },
+    {
+        "Id": "1275",
+        "Name": "Cassette "
+    },
+    {
+        "Id": "1276",
+        "Name": "Repondeur "
+    },
+    {
+        "Id": "1277",
+        "Name": "Capacité"
+    },
+    {
+        "Id": "1278",
+        "Name": "Reversible "
+    },
+    {
+        "Id": "1279",
+        "Name": "Sac "
+    },
+    {
+        "Id": "1280",
+        "Name": "Largeur de ruban acceptée"
+    },
+    {
+        "Id": "1281",
+        "Name": "Connexion PC "
+    },
+    {
+        "Id": "1282",
+        "Name": "Type ruban/etiquette"
+    },
+    {
+        "Id": "1283",
+        "Name": "Quadrillage"
+    },
+    {
+        "Id": "1284",
+        "Name": "Imprimé"
+    },
+    {
+        "Id": "1285",
+        "Name": "Recycle "
+    },
+    {
+        "Id": "1286",
+        "Name": "Repostionnable "
+    },
+    {
+        "Id": "1287",
+        "Name": "Perfore "
+    },
+    {
+        "Id": "1288",
+        "Name": "Adhesif "
+    },
+    {
+        "Id": "1289",
+        "Name": "Taille de l''empreinte"
+    },
+    {
+        "Id": "1290",
+        "Name": "Nbre de ligne MAX"
+    },
+    {
+        "Id": "1291",
+        "Name": "Lumineux "
+    },
+    {
+        "Id": "1292",
+        "Name": "Nbre de colonnes"
+    },
+    {
+        "Id": "1293",
+        "Name": "Taille"
+    },
+    {
+        "Id": "1294",
+        "Name": "Editeur"
+    },
+    {
+        "Id": "1295",
+        "Name": "Réglure"
+    },
+    {
+        "Id": "1296",
+        "Name": "Type de couverture"
+    },
+    {
+        "Id": "1297",
+        "Name": "Onglet "
+    },
+    {
+        "Id": "1298",
+        "Name": "Nbre onglets"
+    },
+    {
+        "Id": "1299",
+        "Name": "Onglets imprimes"
+    },
+    {
+        "Id": "1300",
+        "Name": "Type d''onglet"
+    },
+    {
+        "Id": "1301",
+        "Name": "Touches   perforations renforcees "
+    },
+    {
+        "Id": "1302",
+        "Name": "Nbre de touches"
+    },
+    {
+        "Id": "1303",
+        "Name": "Rabat "
+    },
+    {
+        "Id": "1304",
+        "Name": "Etiquette "
+    },
+    {
+        "Id": "1305",
+        "Name": "Nbre de rabats"
+    },
+    {
+        "Id": "1306",
+        "Name": "Diamètre trou"
+    },
+    {
+        "Id": "1307",
+        "Name": "Motif"
+    },
+    {
+        "Id": "1308",
+        "Name": "Ecartement"
+    },
+    {
+        "Id": "1309",
+        "Name": "Sexe"
+    },
+    {
+        "Id": "1310",
+        "Name": "Valeur"
+    },
+    {
+        "Id": "1311",
+        "Name": "Nbre de faisceaux"
+    },
+    {
+        "Id": "1312",
+        "Name": "Nbre de trous"
+    },
+    {
+        "Id": "1313",
+        "Name": "Reservoir "
+    },
+    {
+        "Id": "1314",
+        "Name": "Matière de l''anneau"
+    },
+    {
+        "Id": "1315",
+        "Name": "Modèle"
+    },
+    {
+        "Id": "1316",
+        "Name": "Forme tête épingle"
+    },
+    {
+        "Id": "1317",
+        "Name": "Nbre de feuilles"
+    },
+    {
+        "Id": "1318",
+        "Name": "Nbre de pages"
+    },
+    {
+        "Id": "1319",
+        "Name": "Nbre de message par page"
+    },
+    {
+        "Id": "1320",
+        "Name": "Etiquette de dos "
+    },
+    {
+        "Id": "1321",
+        "Name": "Taille du dos"
+    },
+    {
+        "Id": "1322",
+        "Name": "Personnalisable "
+    },
+    {
+        "Id": "1323",
+        "Name": "Diametre de l''anneau"
+    },
+    {
+        "Id": "1324",
+        "Name": "Repose poignet "
+    },
+    {
+        "Id": "1325",
+        "Name": "Résolution native"
+    },
+    {
+        "Id": "1326",
+        "Name": "Abreviation résolution"
+    },
+    {
+        "Id": "1327",
+        "Name": "Contraste"
+    },
+    {
+        "Id": "1328",
+        "Name": "Taille d''images (mètres)"
+    },
+    {
+        "Id": "1329",
+        "Name": "Distance de projection"
+    },
+    {
+        "Id": "1330",
+        "Name": "Connection entrée"
+    },
+    {
+        "Id": "1331",
+        "Name": "Connection sortie"
+    },
+    {
+        "Id": "1332",
+        "Name": "Ratio"
+    },
+    {
+        "Id": "1333",
+        "Name": "Mécanisme"
+    },
+    {
+        "Id": "1334",
+        "Name": "Capacité de coupe (nbre de feuilles)"
+    },
+    {
+        "Id": "1335",
+        "Name": "Taille de coupe"
+    },
+    {
+        "Id": "1336",
+        "Name": "Classification DIN"
+    },
+    {
+        "Id": "1337",
+        "Name": "Niveau  sonore (dB)"
+    },
+    {
+        "Id": "1338",
+        "Name": "Cycle de fonctionnement (mn)"
+    },
+    {
+        "Id": "1339",
+        "Name": "Largeur d''entrée (mm)"
+    },
+    {
+        "Id": "1340",
+        "Name": "Detruit agrafes et trombones "
+    },
+    {
+        "Id": "1341",
+        "Name": "Detruit cartes de credit "
+    },
+    {
+        "Id": "1342",
+        "Name": "Vitesse de coupe moyenne (m/min)"
+    },
+    {
+        "Id": "1343",
+        "Name": "Sans BPA "
+    },
+    {
+        "Id": "1344",
+        "Name": "Nbre de plis"
+    },
+    {
+        "Id": "1345",
+        "Name": "Autocopiant "
+    },
+    {
+        "Id": "1346",
+        "Name": "Poignee de transfert "
+    },
+    {
+        "Id": "1347",
+        "Name": "Planification"
+    },
+    {
+        "Id": "1348",
+        "Name": "Couleur couverture"
+    },
+    {
+        "Id": "1349",
+        "Name": "Couleur papier"
+    },
+    {
+        "Id": "1350",
+        "Name": "Reliure"
+    },
+    {
+        "Id": "1351",
+        "Name": "Millesime "
+    },
+    {
+        "Id": "1352",
+        "Name": "Année agenda/calend"
+    },
+    {
+        "Id": "1353",
+        "Name": "Nbre de Mois"
+    },
+    {
+        "Id": "1354",
+        "Name": "Matière couverture"
+    },
+    {
+        "Id": "1356",
+        "Name": "Decoupe a la main "
+    },
+    {
+        "Id": "1357",
+        "Name": "Colle de l''adhesif"
+    },
+    {
+        "Id": "1358",
+        "Name": "Silencieux "
+    },
+    {
+        "Id": "1359",
+        "Name": "Jetable "
+    },
+    {
+        "Id": "1360",
+        "Name": "Gaufre "
+    },
+    {
+        "Id": "1361",
+        "Name": "Electronique "
+    },
+    {
+        "Id": "1362",
+        "Name": "Devidage central "
+    },
+    {
+        "Id": "1363",
+        "Name": "Contact alimentaire "
+    },
+    {
+        "Id": "1364",
+        "Name": "Predecoupe "
+    },
+    {
+        "Id": "1365",
+        "Name": "Nbre de vues"
+    },
+    {
+        "Id": "1366",
+        "Name": "Nbre de pochettes"
+    },
+    {
+        "Id": "1367",
+        "Name": "Matière des pochettes"
+    },
+    {
+        "Id": "1368",
+        "Name": "Pochettes amovibles "
+    },
+    {
+        "Id": "1369",
+        "Name": "Reliure a anneaux "
+    },
+    {
+        "Id": "1370",
+        "Name": "Livre avec pochettes "
+    },
+    {
+        "Id": "1371",
+        "Name": "Livre monte "
+    },
+    {
+        "Id": "1372",
+        "Name": "Mise en continu"
+    },
+    {
+        "Id": "1373",
+        "Name": "Taille du fond"
+    },
+    {
+        "Id": "1374",
+        "Name": "Livre avec dossiers suspendus "
+    },
+    {
+        "Id": "1375",
+        "Name": "Nbre dossiers suspendus"
+    },
+    {
+        "Id": "1377",
+        "Name": "Devidoir "
+    },
+    {
+        "Id": "1378",
+        "Name": "Livre avec rouleaux "
+    },
+    {
+        "Id": "1379",
+        "Name": "Dimension maxi rouleau accepté"
+    },
+    {
+        "Id": "1380",
+        "Name": "Double face "
+    },
+    {
+        "Id": "1381",
+        "Name": "Type de collage"
+    },
+    {
+        "Id": "1382",
+        "Name": "Caractéristique colle"
+    },
+    {
+        "Id": "1383",
+        "Name": "Solvant "
+    },
+    {
+        "Id": "1384",
+        "Name": "Compteur "
+    },
+    {
+        "Id": "1385",
+        "Name": "Format documents"
+    },
+    {
+        "Id": "1386",
+        "Name": "Nbre de cases/tablettes"
+    },
+    {
+        "Id": "1387",
+        "Name": "Nbre de face"
+    },
+    {
+        "Id": "1388",
+        "Name": "Matière embout"
+    },
+    {
+        "Id": "1389",
+        "Name": "Verres"
+    },
+    {
+        "Id": "1390",
+        "Name": "Utilisation"
+    },
+    {
+        "Id": "1391",
+        "Name": "Valve "
+    },
+    {
+        "Id": "1392",
+        "Name": "Taille/pointure"
+    },
+    {
+        "Id": "1393",
+        "Name": "Senteur"
+    },
+    {
+        "Id": "1394",
+        "Name": "Dimensions intérieures H x L x P en cm"
+    },
+    {
+        "Id": "1395",
+        "Name": "Dimensions extérieures H x L x P en cm"
+    },
+    {
+        "Id": "1396",
+        "Name": "Convient pour format"
+    },
+    {
+        "Id": "1397",
+        "Name": "Diamètre bulles (mm)"
+    },
+    {
+        "Id": "1398",
+        "Name": "Affichage deporte "
+    },
+    {
+        "Id": "1399",
+        "Name": "Type d''alimentation"
+    },
+    {
+        "Id": "1400",
+        "Name": "Portée (kg)"
+    },
+    {
+        "Id": "1401",
+        "Name": "Nbre de compartiments"
+    },
+    {
+        "Id": "1402",
+        "Name": "Type fenêtre"
+    },
+    {
+        "Id": "1403",
+        "Name": "Elastique "
+    },
+    {
+        "Id": "1404",
+        "Name": "Nbre de clip"
+    },
+    {
+        "Id": "1405",
+        "Name": "Dos extensible "
+    },
+    {
+        "Id": "1406",
+        "Name": "Type de pot"
+    },
+    {
+        "Id": "1407",
+        "Name": "Compatible mon timbreenligne"
+    },
+    {
+        "Id": "1408",
+        "Name": "Ouverture"
+    },
+    {
+        "Id": "1409",
+        "Name": "Montage"
+    },
+    {
+        "Id": "1410",
+        "Name": "Incassable "
+    },
+    {
+        "Id": "1411",
+        "Name": "Opaque "
+    },
+    {
+        "Id": "1412",
+        "Name": "Oeillet de prehension "
+    },
+    {
+        "Id": "1413",
+        "Name": "A l  italienne "
+    },
+    {
+        "Id": "1414",
+        "Name": "Nbre de cases"
+    },
+    {
+        "Id": "1415",
+        "Name": "Exterieur "
+    },
+    {
+        "Id": "1416",
+        "Name": "Nbre de clés"
+    },
+    {
+        "Id": "1417",
+        "Name": "Système de fermeture"
+    },
+    {
+        "Id": "1418",
+        "Name": "Qualité papier"
+    },
+    {
+        "Id": "1419",
+        "Name": "Longueur du cable (m)"
+    },
+    {
+        "Id": "1420",
+        "Name": "Nbre de prises"
+    },
+    {
+        "Id": "1421",
+        "Name": "Protection"
+    },
+    {
+        "Id": "1422",
+        "Name": "Interrupteur "
+    },
+    {
+        "Id": "1424",
+        "Name": "Nbre de pixels (M pixels)"
+    },
+    {
+        "Id": "1425",
+        "Name": "Zoom optique (en X)"
+    },
+    {
+        "Id": "1426",
+        "Name": "Zoom numérique (en X)"
+    },
+    {
+        "Id": "1427",
+        "Name": "Ouverture de l''objectif"
+    },
+    {
+        "Id": "1428",
+        "Name": "Stabilisateur d  image "
+    },
+    {
+        "Id": "1429",
+        "Name": "Sensibilté (ISO)"
+    },
+    {
+        "Id": "1430",
+        "Name": "Processeur"
+    },
+    {
+        "Id": "1431",
+        "Name": "Taille écran"
+    },
+    {
+        "Id": "1432",
+        "Name": "Enregistrement video "
+    },
+    {
+        "Id": "1433",
+        "Name": "Résolution de l''enregistrement vidéo (max.)"
+    },
+    {
+        "Id": "1434",
+        "Name": "Cartes mémoire utilisées"
+    },
+    {
+        "Id": "1435",
+        "Name": "Connectique 1"
+    },
+    {
+        "Id": "1436",
+        "Name": "Double connectiques "
+    },
+    {
+        "Id": "1437",
+        "Name": "Connectique 2"
+    },
+    {
+        "Id": "1438",
+        "Name": "Etanche"
+    },
+    {
+        "Id": "1439",
+        "Name": "Accessoires fournis"
+    },
+    {
+        "Id": "1441",
+        "Name": "Capacité native"
+    },
+    {
+        "Id": "1442",
+        "Name": "Capacité compressée"
+    },
+    {
+        "Id": "1443",
+        "Name": "Reinscriptible  RW  "
+    },
+    {
+        "Id": "1444",
+        "Name": "Capacité (Mo/Go/mAh)"
+    },
+    {
+        "Id": "1445",
+        "Name": "Capacité en Min"
+    },
+    {
+        "Id": "1446",
+        "Name": "Boitier"
+    },
+    {
+        "Id": "1447",
+        "Name": "Vitesse d''écriture"
+    },
+    {
+        "Id": "1448",
+        "Name": "Vitesse de lecture"
+    },
+    {
+        "Id": "1449",
+        "Name": "Imprimable "
+    },
+    {
+        "Id": "1450",
+        "Name": "Double couche "
+    },
+    {
+        "Id": "1451",
+        "Name": "Livre avec adaptateur "
+    },
+    {
+        "Id": "1452",
+        "Name": "Norme mémoire"
+    },
+    {
+        "Id": "1453",
+        "Name": "Cache mémoire (en Mo)"
+    },
+    {
+        "Id": "1454",
+        "Name": "Catégorie"
+    },
+    {
+        "Id": "1455",
+        "Name": "1er connecteur"
+    },
+    {
+        "Id": "1456",
+        "Name": "Type embout 1er connecteur"
+    },
+    {
+        "Id": "1457",
+        "Name": "2ème connecteur"
+    },
+    {
+        "Id": "1458",
+        "Name": "Type embout 2eme connecteur"
+    },
+    {
+        "Id": "1459",
+        "Name": "Résolution écran"
+    },
+    {
+        "Id": "1460",
+        "Name": "Taux de contraste"
+    },
+    {
+        "Id": "1461",
+        "Name": "Ecran tactile "
+    },
+    {
+        "Id": "1462",
+        "Name": "Compatible HDCP  protection droits d  auteur  "
+    },
+    {
+        "Id": "1463",
+        "Name": "Temps de réponse en ms"
+    },
+    {
+        "Id": "1464",
+        "Name": "Enceintes integrees "
+    },
+    {
+        "Id": "1465",
+        "Name": "Pieds reglable en hauteur "
+    },
+    {
+        "Id": "1466",
+        "Name": "Rotatif  horizontal   vertical  "
+    },
+    {
+        "Id": "1467",
+        "Name": "Ethernet "
+    },
+    {
+        "Id": "1468",
+        "Name": "Avec batterie rechargeable "
+    },
+    {
+        "Id": "1469",
+        "Name": "Vitesse de numerisation"
+    },
+    {
+        "Id": "1470",
+        "Name": "Résolution"
+    },
+    {
+        "Id": "1471",
+        "Name": "Ecran scanner"
+    },
+    {
+        "Id": "1472",
+        "Name": "Mémoire scanner"
+    },
+    {
+        "Id": "1473",
+        "Name": "Systèmes d''exploitation compatibles"
+    },
+    {
+        "Id": "1474",
+        "Name": "Sans fil "
+    },
+    {
+        "Id": "1475",
+        "Name": "Nbre de boutons"
+    },
+    {
+        "Id": "1476",
+        "Name": "Recepteur compact "
+    },
+    {
+        "Id": "1477",
+        "Name": "Molette de defilement multidirectionnelles "
+    },
+    {
+        "Id": "1478",
+        "Name": "Nomade"
+    },
+    {
+        "Id": "1479",
+        "Name": "Interrupteur marche   arret "
+    },
+    {
+        "Id": "1480",
+        "Name": "Ambidextre "
+    },
+    {
+        "Id": "1481",
+        "Name": "Touches multimedia "
+    },
+    {
+        "Id": "1482",
+        "Name": "Touches raccourcis internet "
+    },
+    {
+        "Id": "1483",
+        "Name": "Touches programmables "
+    },
+    {
+        "Id": "1484",
+        "Name": "Repose poignets integre "
+    },
+    {
+        "Id": "1485",
+        "Name": "Pave numerique "
+    },
+    {
+        "Id": "1486",
+        "Name": "Livre en bundle avec la souris "
+    },
+    {
+        "Id": "1487",
+        "Name": "Livré avec intercalaires amovibles"
+    },
+    {
+        "Id": "1488",
+        "Name": "Nbre de boutons sur la souris"
+    },
+    {
+        "Id": "1489",
+        "Name": "Ambidextre pour la souris "
+    },
+    {
+        "Id": "1491",
+        "Name": "Microphone integre "
+    },
+    {
+        "Id": "1492",
+        "Name": "Batteries "
+    },
+    {
+        "Id": "1493",
+        "Name": "Ouverture de l''objectif"
+    },
+    {
+        "Id": "1494",
+        "Name": "Nbre d''enceinte(s)"
+    },
+    {
+        "Id": "1495",
+        "Name": "Caisson de base "
+    },
+    {
+        "Id": "1496",
+        "Name": "Reglages du son sur les enceintes "
+    },
+    {
+        "Id": "1497",
+        "Name": "Avec micro "
+    },
+    {
+        "Id": "1498",
+        "Name": "Commandes de reglages integrees sur le fil "
+    },
+    {
+        "Id": "1499",
+        "Name": "Dates et heures "
+    },
+    {
+        "Id": "1500",
+        "Name": "Taille du bracelet"
+    },
+    {
+        "Id": "1501",
+        "Name": "Autonomie de la batterie"
+    },
+    {
+        "Id": "1502",
+        "Name": "Frequence cardiaque"
+    },
+    {
+        "Id": "1503",
+        "Name": "Mémoire vive (RAM)"
+    },
+    {
+        "Id": "1504",
+        "Name": "Stockage principal (ROM)"
+    },
+    {
+        "Id": "1505",
+        "Name": "Format de l''écran"
+    },
+    {
+        "Id": "1506",
+        "Name": "Résolution max."
+    },
+    {
+        "Id": "1507",
+        "Name": "Communication sans fil"
+    },
+    {
+        "Id": "1508",
+        "Name": "Caméra avant (résolution)"
+    },
+    {
+        "Id": "1509",
+        "Name": "Caméra arrière (webcam - résolution)"
+    },
+    {
+        "Id": "1510",
+        "Name": "Batterie"
+    },
+    {
+        "Id": "1511",
+        "Name": "Couverture géographique"
+    },
+    {
+        "Id": "1512",
+        "Name": "Information du trafic en temps reel "
+    },
+    {
+        "Id": "1513",
+        "Name": "Mise à jour des cartes"
+    },
+    {
+        "Id": "1514",
+        "Name": "Niveau"
+    },
+    {
+        "Id": "1515",
+        "Name": "Mode examen "
+    },
+    {
+        "Id": "1516",
+        "Name": "Ecran couleur "
+    },
+    {
+        "Id": "1517",
+        "Name": "Ecriture naturelle"
+    },
+    {
+        "Id": "1518",
+        "Name": "Partage ecran "
+    },
+    {
+        "Id": "1522",
+        "Name": "Numero Etiquettes"
+    },
+    {
+        "Id": "1523",
+        "Name": "Ampérage de sortie jusqu''à"
+    },
+    {
+        "Id": "1524",
+        "Name": "Nbre de connecteurs en sortie"
+    },
+    {
+        "Id": "1538",
+        "Name": "Nbre etiq par boite"
+    },
+    {
+        "Id": "1539",
+        "Name": "Vitesse de transfert"
+    },
+    {
+        "Id": "1544",
+        "Name": "Conso Compatible "
+    },
+    {
+        "Id": "1553",
+        "Name": "Capacité de la corbeille (L)"
+    },
+    {
+        "Id": "1555",
+        "Name": "Nbre de rouleaux livré"
+    },
+    {
+        "Id": "1556",
+        "Name": "Dimension du/des rouleaul(x) livré(s)"
+    },
+    {
+        "Id": "1573",
+        "Name": "Découpé"
+    },
+    {
+        "Id": "1585",
+        "Name": "Descriptif"
+    },
+    {
+        "Id": "1590",
+        "Name": "Marque fabricant"
+    },
+    {
+        "Id": "1596",
+        "Name": "Consommables compatibles"
+    },
+    {
+        "Id": "1610",
+        "Name": "Tension (volts)"
+    },
+    {
+        "Id": "1615",
+        "Name": "Consommables marques"
+    },
+    {
+        "Id": "1621",
+        "Name": "Force"
+    },
+    {
+        "Id": "1635",
+        "Name": "Type carte mémoire"
+    },
+    {
+        "Id": "1636",
+        "Name": "Produit Vert"
+    },
+    {
+        "Id": "1637",
+        "Name": "Charge maxi"
+    },
+    {
+        "Id": "1638",
+        "Name": "Roue gonflable "
+    },
+    {
+        "Id": "1639",
+        "Name": "Dossier rabatable "
+    },
+    {
+        "Id": "1640",
+        "Name": "Dimensions pelle"
+    },
+    {
+        "Id": "1641",
+        "Name": "Pelle rabatable "
+    },
+    {
+        "Id": "1642",
+        "Name": "Nbre de plateau"
+    },
+    {
+        "Id": "1644",
+        "Name": "Dimensions utiles (cm)"
+    },
+    {
+        "Id": "1645",
+        "Name": "Precision"
+    },
+    {
+        "Id": "1646",
+        "Name": "Vitesse maximum"
+    },
+    {
+        "Id": "1647",
+        "Name": "Materiaux compatibles"
+    },
+    {
+        "Id": "1648",
+        "Name": "Diametre de buse"
+    },
+    {
+        "Id": "1649",
+        "Name": "Buses fournies"
+    },
+    {
+        "Id": "1650",
+        "Name": "Nbre d''extrudeur"
+    },
+    {
+        "Id": "1651",
+        "Name": "Diametre filament"
+    },
+    {
+        "Id": "1652",
+        "Name": "Plateau chauffant"
+    },
+    {
+        "Id": "1653",
+        "Name": "Type de fichier"
+    },
+    {
+        "Id": "1654",
+        "Name": "Connexion"
+    },
+    {
+        "Id": "1665",
+        "Name": "Article encombrant / fragile"
+    },
+    {
+        "Id": "1666",
+        "Name": "Résistance (kg)"
+    },
+    {
+        "Id": "1667",
+        "Name": "Profondeur de gorge (mm)"
+    },
+    {
+        "Id": "1682",
+        "Name": "Durée de vie (heures)"
+    },
+    {
+        "Id": "1690",
+        "Name": "Tracé (en mm)"
+    },
+    {
+        "Id": "1710",
+        "Name": "Latex"
+    },
+    {
+        "Id": "1711",
+        "Name": "Solvant"
+    },
+    {
+        "Id": "1713",
+        "Name": "Biocide BIT MIT"
+    },
+    {
+        "Id": "1714",
+        "Name": "Les oeufs et les produits a base d  oeufs"
+    },
+    {
+        "Id": "1715",
+        "Name": "Les legumineuses"
+    },
+    {
+        "Id": "1716",
+        "Name": "Le soja"
+    },
+    {
+        "Id": "1717",
+        "Name": "L  arachide"
+    },
+    {
+        "Id": "1718",
+        "Name": "Les poissons et les produits a base de poisson"
+    },
+    {
+        "Id": "1719",
+        "Name": "Le lait et les produits a base de lait  y compris lactose "
+    },
+    {
+        "Id": "1720",
+        "Name": "Les crustaces et les produits a base de crustaces"
+    },
+    {
+        "Id": "1721",
+        "Name": "Les graines de sesame"
+    },
+    {
+        "Id": "1722",
+        "Name": "La moutarde"
+    },
+    {
+        "Id": "1723",
+        "Name": "Le celeri"
+    },
+    {
+        "Id": "1724",
+        "Name": "Les mollusques et les produits a base de mollusques"
+    },
+    {
+        "Id": "1725",
+        "Name": "Les cereales contenant du gluten et les produits a base de cereales"
+    },
+    {
+        "Id": "1726",
+        "Name": "L  anhydride sulfureux  ou dioxyde de soufre  et les sulfites en concentration de plus de 10 mg kg o"
+    },
+    {
+        "Id": "1727",
+        "Name": "Fruits a coques"
+    },
+    {
+        "Id": "1728",
+        "Name": "Proteines animales ou vegetales"
+    },
+    {
+        "Id": "1729",
+        "Name": "Cacao"
+    },
+    {
+        "Id": "1730",
+        "Name": "Amidon"
+    },
+    {
+        "Id": "1733",
+        "Name": "Lavande  essence de lavande "
+    },
+    {
+        "Id": "1734",
+        "Name": "Diagonale ecran"
+    },
+    {
+        "Id": "1737",
+        "Name": "Lame protegee"
+    },
+    {
+        "Id": "1738",
+        "Name": "Lame auto affutee"
+    },
+    {
+        "Id": "1747",
+        "Name": "Complement produits"
+    },
+    {
+        "Id": "1748",
+        "Name": "Epaisseur film    "
+    },
+    {
+        "Id": "1749",
+        "Name": "Epaisseur colle    "
+    },
+    {
+        "Id": "1763",
+        "Name": "Autres  a preciser "
+    },
+    {
+        "Id": "1770",
+        "Name": "Roulette O N"
+    },
+    {
+        "Id": "1797",
+        "Name": "Taxe copie privee  A2 "
+    },
+    {
+        "Id": "1798",
+        "Name": "Taxe Corepile  A3 "
+    },
+    {
+        "Id": "1799",
+        "Name": "Taxe Eco part. Mobilier  A4 "
+    },
+    {
+        "Id": "1800",
+        "Name": "Taxe Recylum (A5)"
+    },
+    {
+        "Id": "1802",
+        "Name": "Taxe DEEE (A6 à A9)"
+    },
+    {
+        "Id": "1861",
+        "Name": "Type de Fixation"
+    },
+    {
+        "Id": "1899",
+        "Name": "Marque Fab & prod"
+    },
+    {
+        "Id": "1988",
+        "Name": "Article Nouveau"
+    },
+    {
+        "Id": "559",
+        "Name": "idNode"
+    },
+    {
+        "Id": "682",
+        "Name": "Hauteur Logistique (mm)"
+    },
+    {
+        "Id": "683",
+        "Name": "Code EAN Carton"
+    },
+    {
+        "Id": "684",
+        "Name": "Code EAN Paquet"
+    },
+    {
+        "Id": "686",
+        "Name": "Code EAN unité"
+    },
+    {
+        "Id": "687",
+        "Name": "Longueur Logistique (mm)"
+    },
+    {
+        "Id": "689",
+        "Name": "Marque Fabricant"
+    },
+    {
+        "Id": "690",
+        "Name": "Largeur Logistique (mm)"
+    },
+    {
+        "Id": "691",
+        "Name": "Marque Produit"
+    },
+    {
+        "Id": "693",
+        "Name": "Poids Logistique (kg)"
+    },
+    {
+        "Id": "696",
+        "Name": "Quantité carton"
+    },
+    {
+        "Id": "700",
+        "Name": "Référence fournisseur"
+    },
+    {
+        "Id": "703",
+        "Name": "Quantité paquet"
+    },
+    {
+        "Id": "707",
+        "Name": "Statut"
+    },
+    {
+        "Id": "708",
+        "Name": "Cycle de vie"
+    },
+    {
+        "Id": "709",
+        "Name": "Nomenclature"
+    },
+    {
+        "Id": "711",
+        "Name": "Taux TVA"
+    },
+    {
+        "Id": "714",
+        "Name": "Nature Ecotaxe"
+    },
+    {
+        "Id": "719",
+        "Name": "Marches Publics"
+    },
+    {
+        "Id": "720",
+        "Name": "N° Ordre"
+    },
+    {
+        "Id": "725",
+        "Name": "Pays"
+    },
+    {
+        "Id": "739",
+        "Name": "Dimensions Produit"
+    },
+    {
+        "Id": "763",
+        "Name": "Poids Marketing fixe"
+    },
+    {
+        "Id": "766",
+        "Name": "Designation Nomenclature"
+    },
+    {
+        "Id": "773",
+        "Name": "Format"
+    },
+    {
+        "Id": "776",
+        "Name": "Couleur"
+    },
+    {
+        "Id": "779",
+        "Name": "Articles associés"
+    },
+    {
+        "Id": "791",
+        "Name": "Durée de garantie"
+    },
+    {
+        "Id": "794",
+        "Name": "Désignation courte"
+    },
+    {
+        "Id": "795",
+        "Name": "Matière"
+    },
+    {
+        "Id": "798",
+        "Name": "Designation complete"
+    },
+    {
+        "Id": "799",
+        "Name": "Type d'éléments"
+    },
+    {
+        "Id": "800",
+        "Name": "Nbre d''elements"
+    },
+    {
+        "Id": "801",
+        "Name": "Type de sous-éléments"
+    },
+    {
+        "Id": "802",
+        "Name": "Nbre de sous-éléments"
+    },
+    {
+        "Id": "810",
+        "Name": "Nom Fabricant"
+    },
+    {
+        "Id": "812",
+        "Name": "Montant Ecotaxes"
+    },
+    {
+        "Id": "825",
+        "Name": "Caractéristique_1"
+    },
+    {
+        "Id": "826",
+        "Name": "Caractéristique_2"
+    },
+    {
+        "Id": "827",
+        "Name": "Caractéristique_3"
+    },
+    {
+        "Id": "828",
+        "Name": "Autres Caractéristiques"
+    },
+    {
+        "Id": "834",
+        "Name": "Grammage"
+    },
+    {
+        "Id": "839",
+        "Name": "Article Environnemental"
+    },
+    {
+        "Id": "843",
+        "Name": "Norme Environnement"
+    },
+    {
+        "Id": "844",
+        "Name": "Norme Environnement 2"
+    },
+    {
+        "Id": "845",
+        "Name": "Norme Environnement 3"
+    },
+    {
+        "Id": "846",
+        "Name": "Information Environnement "
+    },
+    {
+        "Id": "852",
+        "Name": "Indice Blancheur CIE"
+    },
+    {
+        "Id": "853",
+        "Name": "Dos / Largeur Soufflet"
+    },
+    {
+        "Id": "856",
+        "Name": "Fabriqué en France"
+    },
+    {
+        "Id": "859",
+        "Name": "Taille pointe (en mm)"
+    },
+    {
+        "Id": "860",
+        "Name": "Type de pointe"
+    },
+    {
+        "Id": "862",
+        "Name": "Type d''écriture"
+    },
+    {
+        "Id": "863",
+        "Name": "Type d''anneaux"
+    },
+    {
+        "Id": "866",
+        "Name": "Type de garantie"
+    },
+    {
+        "Id": "880",
+        "Name": "Compléments Environnement"
+    },
+    {
+        "Id": "896",
+        "Name": "Nom fournisseur"
+    },
+    {
+        "Id": "997",
+        "Name": "Qualité blancheur"
+    }
+]

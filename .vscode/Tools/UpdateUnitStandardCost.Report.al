@@ -55,10 +55,13 @@ report 59924 "Update Unit Standard Cost"
         Rec.SetRange("Unit Standard Cost", 0);
         if Rec.FindSet() then
             repeat
-                if Date2DMY(Rec."Shipment Date", 3) = pYear then
-                    Rec."Unit Standard Cost" := pUnitCost
+                if Rec."Shipment Date" = 0D then
+                    Rec."Unit Standard Cost" := pItem."Standard Cost"
                 else
-                    Rec."Unit Standard Cost" := pItem."Standard Cost";
+                    if Date2DMY(Rec."Shipment Date", 3) = pYear then
+                        Rec."Unit Standard Cost" := pUnitCost
+                    else
+                        Rec."Unit Standard Cost" := pItem."Standard Cost";
                 if Rec."Unit Standard Cost" <> 0 then
                     Rec.Modify();
             until Rec.Next() = 0;
@@ -75,10 +78,13 @@ report 59924 "Update Unit Standard Cost"
         Rec.SetRange("Unit Standard Cost", 0);
         if Rec.FindSet() then
             repeat
-                if Date2DMY(Rec."Posting Date", 3) = pYear then
-                    Rec."Unit Standard Cost" := pUnitCost
+                if Rec."Shipment Date" = 0D then
+                    Rec."Unit Standard Cost" := pItem."Standard Cost"
                 else
-                    Rec."Unit Standard Cost" := pItem."Standard Cost";
+                    if Date2DMY(Rec."Posting Date", 3) = pYear then
+                        Rec."Unit Standard Cost" := pUnitCost
+                    else
+                        Rec."Unit Standard Cost" := pItem."Standard Cost";
                 if Rec."Unit Standard Cost" <> 0 then
                     Rec.Modify();
             until Rec.Next() = 0;
@@ -95,10 +101,13 @@ report 59924 "Update Unit Standard Cost"
         Rec.SetRange("Unit Standard Cost", 0);
         if Rec.FindSet() then
             repeat
-                if Date2DMY(Rec."Posting Date", 3) = pYear then
-                    Rec."Unit Standard Cost" := pUnitCost
+                if Rec."Shipment Date" = 0D then
+                    Rec."Unit Standard Cost" := pItem."Standard Cost"
                 else
-                    Rec."Unit Standard Cost" := pItem."Standard Cost";
+                    if Date2DMY(Rec."Posting Date", 3) = pYear then
+                        Rec."Unit Standard Cost" := pUnitCost
+                    else
+                        Rec."Unit Standard Cost" := pItem."Standard Cost";
                 if Rec."Unit Standard Cost" <> 0 then
                     Rec.Modify();
             until Rec.Next() = 0;

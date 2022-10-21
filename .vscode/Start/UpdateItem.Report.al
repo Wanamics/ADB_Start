@@ -93,9 +93,9 @@ report 59900 "wan Update Item"
                     Item."Reorder Point" := 0;
                     Item."Maximum Inventory" := 0;
                     */
-                    if "Unit Price" <> 0 then // Trigger webhook to update Weight
-                        Item.Modify(true);
-                    SetStockKeepingUnit(Item, '01');
+                    //if "Unit Price" <> 0 then // Trigger webhook to update Weight
+                    //    Item.Modify(true);
+                    SetStockKeepingUnit(Item, '02');
                     SetDefaultDimension(Item, 'SITE', 'ZZZ')
                 end;
                 /*

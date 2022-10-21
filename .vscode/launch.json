@@ -8,7 +8,7 @@
             "server": "https://businesscentral.dynamics.com/",
             "tenant": "e72de8e0-5832-4947-96d8-0ffa425380ff",
             "environmentType": "Sandbox",
-            "environmentName": "Development",
+            "environmentName": "DevMRF",
             "port": 7049,
             "authentication": "AAD",
             "breakOnError": true,
